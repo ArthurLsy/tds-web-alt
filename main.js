@@ -14,10 +14,10 @@ var a = document.createElement('a');
 a.setAttribute('href','/.');
 a.setAttribute('id','homes');
 a.style.color = "gray";
+a.style.marginLeft = "49%";
 var span = document.createElement("span");
 span.setAttribute("class","material-symbols-outlined");
 var home = document.createTextNode("home");
 span.appendChild(home);
 a.appendChild(span);
 header.appendChild(a);
-/*<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,1,200" />*/
