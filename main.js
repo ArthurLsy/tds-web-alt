@@ -13,7 +13,7 @@ head.appendChild(LinkHome)
 var a = document.createElement('a');
 a.setAttribute('href','/.');
 a.setAttribute('id','homes');
-a.style.color = "gray";
+a.style.color = "#2E2E2E";
 a.style.marginLeft = "49%";
 var span = document.createElement("span");
 span.setAttribute("class","material-symbols-outlined");
