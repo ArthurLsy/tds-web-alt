@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Accueil</title>
 </head>
 <body>
-    <h1>TD/TP SLAM</h1>
+    <div class="header">
+        <div></div>
+        <h1>TD/TP SLAM</h1>
+        <a class='slamwiki' href="https://slamwiki2.kobject.net/">
+            <span class="material-symbols-outlined">
+                arrow_forward_ios
+            </span>
+        </a>
+    </div>
     <ul></ul>
 </body>
 <style>
@@ -17,8 +26,32 @@
         background-color: #2E2E2E;
         color: #E8E8E8;
     }
+    .header{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 1em;
+    }
     h1{
         text-align: center;
+    }
+    .slamwiki{
+        color: #E8E8E8;
+        text-decoration: none;
+        background-color: #8F8F8F;
+        padding: 1em;
+        border-radius: 0.5em;
+        padding-top: 1.6em;
+        text-align: center;
+        margin-left: 10em;
+        margin-right: 3em;
+        margin-bottom: 1em;
+    }
+    .slamwiki:hover{
+        transition: 0.3s;
+        background-color: #E6FF42;
+        color: #2E2E2E;
+        box-shadow: -25px 0px 0px #E8E8E8;
+        transform: translate(10px);
     }
     ul{
         list-style-type: none;
@@ -28,7 +61,7 @@
         grid-auto-rows: minmax(100px, auto);
         margin-right: 2em;
     }
-    a{
+    .tuile{
         display: block;
         padding: 5em;
         background-color: #8F8F8F;
@@ -39,7 +72,7 @@
         border-radius: 0.5em;
         margin: 1em;
     }
-    a:hover{
+    .tuile:hover{
         transition: 0.3s;
         background-color: #E6FF42;
         color: #2E2E2E;
@@ -54,14 +87,23 @@
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         margin-right: 2em;
+        }
+    }
+    @media screen and (max-width: 500px){
+        ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-right: 2em;
     }
     }
 </style>
 <script>
     const Link = {"TD 0" : "td0/index.html",
                 "TD Mentions légales" : "td1/index.html",
-                "TD pâte à crêpes" : "td1/crepes.html",
-                "test":"test"}
+                "TD pâte à crêpes" : "td1/crepes.html"}
 
     var ul = document.querySelector('ul');
 
@@ -69,6 +111,7 @@
         var a = document.createElement('a');
         var li = document.createElement('li');
         a.setAttribute("href",String(Link[Object.keys(Link)[i]]));
+        a.setAttribute("class","tuile");
         var textA = document.createTextNode(String(Object.keys(Link)[i]));
         
         a.appendChild(textA);
