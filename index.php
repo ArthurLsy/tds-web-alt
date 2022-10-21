@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -133,5 +133,8 @@
         ul.appendChild(li);
     }
 
+</script>
+<script>
+    setInterval(function(){location.reload(true);}, 10000);
 </script>
 </html>
