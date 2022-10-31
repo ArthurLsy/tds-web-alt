@@ -1,0 +1,55 @@
+main .bloc {
+margin-left: 30%;
+margin-right: 30%;
+}
+
+.nomPrenom {
+    margin-bottom: 2rem;
+}
+
+.nomPrenom div {
+    font-size: 3rem;
+}
+
+#nom {
+    font-weight: bold;
+}
+
+.gridNom:nth-child(2n) {
+margin-left: 15%;
+}
+
+main div .text {
+    text-align: justify;
+}
+
+#textPhoto {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "text text photo"
+    ". . ."
+    ". . .";
+}
+
+.text { grid-area: text; }
+
+#photo { grid-area: photo; }
+
+
+#presentation {
+    margin-top: 5rem;
+}
+
+#photo img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+#scroll {
+
+}

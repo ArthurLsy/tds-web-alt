@@ -1,0 +1,36 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbfbfb;
+    color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+a {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+header{
+    color: #cccccc;
+    background-color: #0a0a0a;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    font-size: 15px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+}
+
+.contact {
+    color: #fbfbfb;
+    background: linear-gradient(to bottom right, #ff0059, #0077ff);
+    padding: 0.4em;
+    border-radius: 0.5em;
+}
+
