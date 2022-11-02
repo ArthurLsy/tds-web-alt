@@ -1,0 +1,7 @@
+Todo List :
+    à memoriser sur session
+    classement dans talbeau (todolist)
+    Après connexion :
+        Ajout
+        Modification
+        Supression
