@@ -1,3 +1,7 @@
+main{
+    padding-top: 6em;
+}
+
 main .bloc {
 margin-left: 30%;
 margin-right: 30%;
@@ -38,11 +42,6 @@ main div .text {
 
 #photo { grid-area: photo; }
 
-
-#presentation {
-    margin-top: 5rem;
-}
-
 #photo img {
     max-width: 80%;
     height: auto;
@@ -50,6 +49,25 @@ main div .text {
     margin-left: 1rem;
 }
 
-#scroll {
+.flecheBas{
+    text-align: center;
+}
 
+#scroll {
+    margin-top: 10rem;
+    width: 5rem;
+    border: solid black 0.1rem;
+    border-radius: 1rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 300,
+            'GRAD' 0,
+            'opsz' 48
+}
+
+.test {
+    height: 100rem;
 }
