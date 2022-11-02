@@ -1,0 +1,31 @@
+main {
+    padding-top: 10rem
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bouton {
+    background-color: rgba(206, 206, 206, 0.4);
+    border: solid rgba(30,30,30,0.9) 1px ;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    backdrop-filter: blur(0.2rem);
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.bouton:hover {
+    transition: 0.5s;
+    background-color: #c9c9c9;
+}
