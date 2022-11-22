@@ -1,0 +1,73 @@
+main{
+    padding-top: 6em;
+}
+
+main .bloc {
+margin-left: 30%;
+margin-right: 30%;
+}
+
+.nomPrenom {
+    margin-bottom: 2rem;
+}
+
+.nomPrenom div {
+    font-size: 3rem;
+}
+
+#nom {
+    font-weight: bold;
+}
+
+.gridNom:nth-child(2n) {
+margin-left: 15%;
+}
+
+main div .text {
+    text-align: justify;
+}
+
+#textPhoto {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "text text photo"
+    ". . ."
+    ". . .";
+}
+
+.text { grid-area: text; }
+
+#photo { grid-area: photo; }
+
+#photo img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.flecheBas{
+    text-align: center;
+}
+
+#scroll {
+    margin-top: 10rem;
+    width: 5rem;
+    border: solid black 0.1rem;
+    border-radius: 1rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 300,
+            'GRAD' 0,
+            'opsz' 48
+}
+
+.test {
+    height: 100rem;
+}

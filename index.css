@@ -1,73 +1,53 @@
-main{
-    padding-top: 6em;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*   {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
-main .bloc {
-margin-left: 30%;
-margin-right: 30%;
+#menu   {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16rem;
 }
 
-.nomPrenom {
-    margin-bottom: 2rem;
+.btn_menu   {
+    text-decoration: none;
+    color: #0a0a0a;
+    text-align: left;
+    font-size: 60px;
 }
 
-.nomPrenom div {
-    font-size: 3rem;
-}
 
-#nom {
-    font-weight: bold;
-}
-
-.gridNom:nth-child(2n) {
-margin-left: 15%;
-}
-
-main div .text {
-    text-align: justify;
-}
-
-#textPhoto {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "text text photo"
-    ". . ."
-    ". . .";
-}
-
-.text { grid-area: text; }
-
-#photo { grid-area: photo; }
-
-#photo img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 1rem;
-    margin-left: 1rem;
-}
-
-.flecheBas{
-    text-align: center;
-}
-
-#scroll {
-    margin-top: 10rem;
-    width: 5rem;
-    border: solid black 0.1rem;
-    border-radius: 1rem;
-}
-
-.material-symbols-outlined {
+.material-symbols-outlined  {
     font-variation-settings:
-            'FILL' 0,
-            'wght' 300,
-            'GRAD' 0,
-            'opsz' 48
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 48
 }
 
-.test {
-    height: 100rem;
+.btn_croix  {
+    transform: rotate(45deg) scale(2);
+    margin-left: 5rem;
+    text-align: right;
+    transition: 0.5s;
+}
+
+.btn_croix:hover {
+
+}
+
+.btn_div:hover  .btn_croix{
+    transition: 0.5s;
+    transform: rotate(180deg) scale(3);
+}
+
+.btn_div:hover  .btn_menu{
+    transition: 0.5s;
+    transform: scale(3);
 }
