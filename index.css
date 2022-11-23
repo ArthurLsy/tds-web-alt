@@ -6,10 +6,16 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    /*background: #151515;*/
+}
+
 #menu   {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16rem;
@@ -17,37 +23,60 @@
 
 .btn_menu   {
     text-decoration: none;
-    color: #0a0a0a;
     text-align: left;
     font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    color: #93ff00;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #93ff00;
+    cursor: pointer;
+    text-align: center;
 }
 
-
-.material-symbols-outlined  {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 500,
-        'GRAD' 0,
-        'opsz' 48
+.projection {
+    font-size: 60px;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #93ff00;
+    transition: 250ms;
 }
 
-.btn_croix  {
-    transform: rotate(45deg) scale(2);
-    margin-left: 5rem;
-    text-align: right;
-    transition: 0.5s;
+.projection_haut    {
+    transform: translate(0,71px);
 }
 
-.btn_croix:hover {
-
+.projection_bas {
+    transform: translate(0,-71px);
 }
 
-.btn_div:hover  .btn_croix{
-    transition: 0.5s;
-    transform: rotate(180deg) scale(3);
+.btn_menu:hover .projection {
+    transform: scale(1);
+    transition: 250ms;
 }
 
-.btn_div:hover  .btn_menu{
-    transition: 0.5s;
-    transform: scale(3);
-}
+/*
+
+        <?php
+            $php_click = "<script>document.write(php_click)</script>";
+            echo $php_click;
+        ?>
+        <?php if ($_SESSION["view"] === null):?>
+            //render menu
+
+        <?php endif ?>
+        <?php if ($_SESSION["view"] === "0"):?>
+
+        <p>Test</p>
+            //render        <?php endif ?>
+        <?php if ($_SESSION["view"] === "1"):?>
+            //render
+        <?php endif ?>
+        <?php if ($_SESSION["view"] === '2'):?>
+            //render
+        <?php endif ?>
+
+        $_SESSION['view'];
+include 'rerender.php';
+$pageSwitcher=null;
+ */
