@@ -1,15 +1,9 @@
 <?php
 session_start();
 
-if (isset($_GET['menu'])) {
-    $_SESSION['view'] = $_GET['menu'];
-}
+$_SESSION['view'] = "<script>document.write(flag_click)</script>";
 
-
-
-
-
-
+echo $_SESSION['view'];
 
 
 
