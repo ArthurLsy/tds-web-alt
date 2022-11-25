@@ -1,0 +1,66 @@
+#competences {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#box_competences {
+
+}
+
+#box_competences h1 {
+    text-align: center;
+}
+
+.box_nom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition: 250ms;
+}
+
+.box_nom:hover {
+    transition: 250ms;
+    transform: translateX(10px);
+}
+
+.box_nom:active {
+    transform: translateX(15px);
+}
+
+.box_title {
+    transform: translateY(15%);
+}
+
+.box_progression {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transform: translateY(85%);
+}
+
+.barre_progression {
+    height: 10px;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.progression {
+    height: 10px;
+    background: black;
+    border-radius: 25px;
+}
+
+#box_description {
+    margin-left: 10%;
+}
+/*    for (let i=0; i<=items.length;i++) {
+        items[i].addEventListener('click' event => {
+            if (event.target === d) {
+                console.log('test')
+            }
+        })
+    */
