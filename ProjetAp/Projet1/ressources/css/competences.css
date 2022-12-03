@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: 250ms;
+    cursor: pointer;
 }
 
 .box_nom:hover {
@@ -31,14 +32,18 @@
 }
 
 .box_title {
-    transform: translateY(15%);
+    transform: translateY(25%);
 }
 
 .box_progression {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     margin-bottom: 20px;
-    transform: translateY(85%);
+    transform: translateY(75%);
+}
+
+#pourcent {
+    transform: translateY(-25%);
 }
 
 .barre_progression {
@@ -55,12 +60,6 @@
 }
 
 #box_description {
+
     margin-left: 10%;
 }
-/*    for (let i=0; i<=items.length;i++) {
-        items[i].addEventListener('click' event => {
-            if (event.target === d) {
-                console.log('test')
-            }
-        })
-    */
