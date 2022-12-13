@@ -1,6 +1,7 @@
 .menu {
     color: #fbfbfb;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .navbar {
@@ -24,10 +25,16 @@
     padding: 0.4em;
     border-radius: 0.5em;
     text-decoration: none;
+    transition: 0.2s;
+}
+
+.contact:hover {
+    transition: 0.2s;
+    color: #c9c9c9;
 }
 
 .menu:hover {
-    transition: 1s;
+    transition: 0.2s;
     color: #c9c9c9;
 }
 
