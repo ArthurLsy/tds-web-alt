@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #1C1C1CFF;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+#header div {
+    color: white;
+    font-size: 30px;
+}
+
+#tds_slam {
+    text-align: center;
+}
+
+#slamwiki {
+    text-align: right;
+    cursor: pointer;
+}
+
+.item {
+    cursor: pointer;
+}
