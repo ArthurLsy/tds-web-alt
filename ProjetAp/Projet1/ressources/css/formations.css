@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box_formations {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.formation {  display: grid;
+    grid-template-columns: 1fr 1.1fr 0.9fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "title title option option"
+    "annee annee annee annee"
+    "description description description description";
+}
+
+.description {
+    grid-area: description;
+    text-align: center;
+}
+
+.annee {
+    grid-area: annee;
+    text-align: center;
+}
+
+.option {
+    grid-area: option;
+    margin-left: 2%;
+}
+
+.title {
+    grid-area: title;
+    text-align: right;
+    margin-right: 2%;
+}
