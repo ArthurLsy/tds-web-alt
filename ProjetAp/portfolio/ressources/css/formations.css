@@ -1,48 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
+.titre_formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 0;
+    cursor: pointer;
+    padding: 10px 3px;
+}
+.titre_formation:hover{
+    background-color: #ff0059;
+
 }
 
-#box_formations {
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
+.formation_description {
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 8%;
+
+.deploy{
+    /*
+    animation-name: deployContent;
+    animation-duration: 0.4s;
+    animation-direction: normal;
+     */
+    display: flex;
+}
+.hide{
+    display: none;
+    /*
+    animation-name: hideContent;
+    animation-duration: 0.4s;
+    animation-direction: reverse;
+     */
 }
 
-.formation {  display: grid;
-    grid-template-columns: 1fr 1.1fr 0.9fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "title title option option"
-    "annee annee annee annee"
-    "description description description description";
+/*
+@keyframes deployContent {
+    0%{
+        display: flex !important;
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
-.description {
-    grid-area: description;
-    text-align: center;
+@keyframes hideContent {
+    0%{
+        transform: scaleY(0);
+        display: none !important;
+    }
+    50% {
+        transform: scaleY(1);
+    }
+    100% {
+
+        visibility: collapse;
+    }
 }
 
-.annee {
-    grid-area: annee;
-    text-align: center;
-}
-
-.option {
-    grid-area: option;
-    margin-left: 2%;
-}
-
-.title {
-    grid-area: title;
-    text-align: right;
-    margin-right: 2%;
-}

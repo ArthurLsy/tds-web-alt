@@ -1,8 +1,9 @@
-<header id="header" class="navbar">
-    <div><a href="index.php" class="menu">Accueil</a></div>
-    <div><a href="about.php" class="menu">A propos</a></div>
-    <div><a href="competences.php" class="menu">Compétences</a></div>
-    <div><a href="experience.php" class="menu">Experiences</a></div>
-    <div><a href="formations.php" class="menu">Formations</a></div>
-    <div><a href="contact.php" class="contact">Contact</a></div>
+<header id="header">
+    <div class="navbar">
+        <?php
+            $dataNav = yaml_parse_file('ressources/yaml/navbar.yaml');
+            foreach ($dataNav as $itemNav) { ?>
+                <a href="<?php echo $itemNav[1] ?>" class="<?php echo $itemNav[0] === "Contact" ? "contact" : "menu" ?>"><?php echo $itemNav[0] ?></a>
+        <?php } ?>
+    </div>
 </header>

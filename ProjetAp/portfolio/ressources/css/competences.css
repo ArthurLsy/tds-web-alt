@@ -1,17 +1,6 @@
-#competences {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-#box_competences {
-
-}
-
-#box_competences h1 {
+#box_competences h2 {
     text-align: center;
+    margin: 5% 0;
 }
 
 .box_nom {
@@ -22,17 +11,11 @@
     cursor: pointer;
 }
 
-.box_nom:hover {
-    transition: 250ms;
-    transform: translateX(10px);
-}
-
-.box_nom:active {
-    transform: translateX(15px);
-}
 
 .box_title {
     transform: translateY(25%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .box_progression {
@@ -44,6 +27,8 @@
 
 #pourcent {
     transform: translateY(-25%);
+    display: flex;
+    justify-content: center;
 }
 
 .barre_progression {
@@ -51,6 +36,7 @@
     width: 100%;
     border: solid 1px black;
     border-radius: 25px;
+    transform: translateY(35%);
 }
 
 .progression {
