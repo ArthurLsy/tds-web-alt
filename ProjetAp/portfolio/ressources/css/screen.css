@@ -31,9 +31,26 @@ margin: 5% 0;
     width: 40%;
 }
 
+#cv {
+    width: 15%;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#cv a {
+    padding: 8px;
+    background: linear-gradient(to bottom right, #ff0059, #0077ff);
+    border-radius: 15px;
+}
+
 /*
 @media screen and (min-width: 900px) {
     html {
         background: red;
     }
 }
+
+ */

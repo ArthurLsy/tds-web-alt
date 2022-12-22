@@ -18,3 +18,4 @@
     }
     ?>
 </div>
+<?php include "utils/cv.php"; ?>

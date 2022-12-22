@@ -20,3 +20,4 @@ foreach ($dataFormation as $key => $itemFormation) { ?>
     <?php } ?>
 </div>
 <script src="ressources/scripts/openDescriptionFormation.js"></script>
+<?php include "utils/cv.php"; ?>

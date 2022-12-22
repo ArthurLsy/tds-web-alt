@@ -2,12 +2,16 @@
 
 include 'utils/header.php';
 
-$menu = $_GET['menu'];
-
-foreach ($dataNav as $key => $itemNav) {
-    if ($key == $menu) {
-        include ''.$itemNav[1].'';
+if (isset($_GET['menu'])) {
+    $menu = $_GET['menu'];
+    foreach ($dataNav as $key => $itemNav) {
+        if ($key == $menu) {
+            include ''.$itemNav[1].'';
+        }
     }
+}else{
+    header('Location: index.php?menu=1');
 }
+
 
 include 'utils/footer.php';

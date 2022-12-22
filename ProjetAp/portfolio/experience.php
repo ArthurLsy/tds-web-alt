@@ -38,3 +38,4 @@
         </div>
     <?php } ?>
 </div>
+<?php include "utils/cv.php"; ?>
