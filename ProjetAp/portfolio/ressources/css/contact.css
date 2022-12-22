@@ -1,0 +1,26 @@
+#box_contact {
+    margin-top: 5rem;
+}
+
+#succes {
+    text-align: center;
+}
+
+#formulaire_contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulaire_contact label {
+    text-align: center;
+    font-weight: bold;
+}
+
+#btn_submit {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #e8e8e8;
+    border-radius: 15px;
+    border: solid #757575 1px;
+}
