@@ -1,8 +1,9 @@
 <div id="box_contact" class="box">
 <?php
-
 if (isset($_GET['succes'])) { ?>
     <div id="succes">Votre message a bien été envoyé !</div>
+<?php }elseif (isset($_GET['fail'])) { ?>
+    <div id="succes">Erreur dans la Captcha</div>
 <?php }else{ ?>
     <form action="mail.php" method="post" id="formulaire_contact">
         <label for="name">Nom</label><br>
@@ -14,7 +15,14 @@ if (isset($_GET['succes'])) { ?>
         <label for="message">Message</label><br>
         <textarea id="message" name="message"></textarea><br>
         <div class="g-recaptcha" data-sitekey="6LcZRZ4jAAAAACxFp_SoRGxpa7dWNhvFhYE7b6n-"></div><br>
+        <input type="hidden" name="captcha" id="captcha">
         <input type="submit" value="Envoyer" id="btn_submit">
     </form>
 <?php } ?>
 </div>
+<script>
+    if (captchaIsValid) {
+        // Met à jour la valeur du champ caché
+        document.getElementById('captcha').value = 'valid';
+    }
+</script>
