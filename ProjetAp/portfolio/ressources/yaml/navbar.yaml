@@ -1,6 +1,6 @@
 1 :
   - Accueil
-  - index.php
+  - home.php
 2 :
   - Compétences
   - competences.php
@@ -8,11 +8,11 @@
   - Formations
   - formations.php
 4 :
-  - Experiences
+  - Expériences
   - experience.php
-5 :
-  - A propos
-  - index.php
+#5 :
+#  - A propos
+#  - index.php
 6 :
   - Contact
-  - index.php
+  - contact.php

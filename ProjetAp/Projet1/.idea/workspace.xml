@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cc216a6-0f7b-409e-a44a-15978cffabb1" name="Changes" comment="" />
+    <list default="true" id="1cc216a6-0f7b-409e-a44a-15978cffabb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/index.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/ressources/css/experiences.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio/ressources/yaml/experiences.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/experience.php" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/experience.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/formations.php" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/formations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/ressources/css/formations.css" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/ressources/css/formations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/ressources/scripts/openDescriptionFormation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/ressources/scripts/openDescriptionFormation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/ressources/yaml/experience.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/ressources/yaml/formations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/ressources/yaml/formations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/ressources/yaml/navbar.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/ressources/yaml/navbar.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/utils/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/utils/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/utils/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/utils/main.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +51,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/alaisney/Desktop/GitRepo/tds-web-alt/ProjetAp/portfolio",
+    "last_opened_file_path": "H:/Documents/Dev/tds-web-alt/ProjetAp/portfolio",
     "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,6 +76,10 @@
       <workItem from="1670839465071" duration="1120000" />
       <workItem from="1670933190505" duration="21000" />
       <workItem from="1670933249338" duration="240000" />
+      <workItem from="1671729692236" duration="27000" />
+      <workItem from="1671729720203" duration="38000" />
+      <workItem from="1671741173067" duration="554000" />
+      <workItem from="1671742955646" duration="38000" />
     </task>
     <servers />
   </component>

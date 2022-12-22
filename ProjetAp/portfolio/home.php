@@ -19,7 +19,3 @@
         <div id="photo"><img src="../ressources/images/pp.jpg"></div>
     </div>
 </div>
-<div id="scrollInstruction" class="bloc">
-    <hr id="scroll">
-    <div class="flecheBas"><span class="material-symbols-outlined">expand_more</span></div>
-</div>

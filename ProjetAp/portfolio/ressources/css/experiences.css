@@ -1,0 +1,18 @@
+.experience {
+    margin: 3rem 0;
+}
+
+.titre_experience {
+    text-align: center;
+}
+
+.nom_date_experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.item_experience {
+    margin: 10px 0;
+}

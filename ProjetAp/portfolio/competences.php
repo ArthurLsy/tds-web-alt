@@ -1,5 +1,3 @@
-<?php include 'utils/header.php'; ?>
-
 <div id="box_competences" class="box">
     <h1>Compétences</h1>
     <?php
@@ -20,5 +18,3 @@
     }
     ?>
 </div>
-
-<?php include 'utils/footer.php'; ?>
