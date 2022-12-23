@@ -16,6 +16,6 @@
             publishing
             software like Aldus PageMaker including versions of Lorem Ipsum.
         </div>
-        <div id="photo"><img src="../ressources/images/pp.jpg"></div>
+        <div id="photo"><img src="ressources/pics/pp.jpg"></div>
     </div>
 </div>
