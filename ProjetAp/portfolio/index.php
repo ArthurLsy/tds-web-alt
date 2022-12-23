@@ -1,6 +1,6 @@
 <?php
 
-include 'utils/header.php';
+include 'vue/utils/header.php';
 
 if (isset($_GET['menu'])) {
     $menu = $_GET['menu'];
@@ -14,4 +14,4 @@ if (isset($_GET['menu'])) {
 }
 
 
-include 'utils/footer.php';
+include 'vue/utils/footer.php';

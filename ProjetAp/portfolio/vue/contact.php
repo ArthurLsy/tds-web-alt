@@ -8,7 +8,7 @@ if (isset($_GET['succes'])) { ?>
 <?php }elseif (isset($_GET['failSubmit'])) {?>
         <div id="succes">Veillez à remplir tout les champs</div>
 <?php }else{ ?>
-    <form action="mail.php" method="post" id="formulaire_contact">
+    <form action="vue/utils/mail.php" method="post" id="formulaire_contact">
         <label for="name">Nom</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Adresse e-mail</label><br>

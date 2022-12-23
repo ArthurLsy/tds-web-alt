@@ -1,18 +1,18 @@
 1 :
   - Accueil
-  - home.php
+  - vue/home.php
 2 :
   - Compétences
-  - competences.php
+  - vue/competences.php
 3 :
   - Formations
-  - formations.php
+  - vue/formations.php
 4 :
   - Expériences
-  - experience.php
-#5 :
-#  - A propos
-#  - index.php
+  - vue/experience.php
+5 :
+  - A propos
+  - vue/about.php
 6 :
   - Contact
-  - contact.php
+  - vue/contact.php

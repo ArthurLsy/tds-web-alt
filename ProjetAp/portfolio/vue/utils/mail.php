@@ -18,7 +18,7 @@ $response = json_decode($result);
 
 if ($response->success) {
     if (empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['email']) || empty($_POST['message'])) {
-        header('Location: index.php?menu=6&failSubmit=2');
+        header('Location: ../../index.php?menu=6&failSubmit=2');
     }else{
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -30,9 +30,9 @@ if ($response->success) {
         $body = 'De : ' . $name . ' (' . $email . ')' . "\n\n" . $message;
         mail($to, $subject, $body);
 
-        header('Location: index.php?menu=6&succes=1');
+        header('Location: ../../index.php?menu=6&succes=1');
     }
 }else{
-    header('Location: index.php?menu=6&failCaptcha=1');
+    header('Location: ../../index.php?menu=6&failCaptcha=1');
 }
 ?>
