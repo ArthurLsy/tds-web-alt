@@ -1,0 +1,18 @@
+.accroche {
+    text-align: center;
+}
+
+.photo_about {
+    text-align: center;
+}
+
+.photo_about img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.presentation_about {
+    text-align: justify;
+}

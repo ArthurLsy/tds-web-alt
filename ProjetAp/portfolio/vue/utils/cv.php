@@ -1,1 +1,1 @@
-<div id="cv">Cliquez ici pour accéder à mon CV : <a href="ressources/CV.pdf">CV</a></div>
+<div id="cv"><a href="ressources/CV.pdf">Cliquez ici pour accéder à mon CV</a></div>
