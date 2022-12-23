@@ -1,4 +1,5 @@
 <div id="box_contact" class="box">
+    <h1>Contact</h1>
 <?php
 if (isset($_GET['succes'])) { ?>
     <div id="succes">Votre message a bien été envoyé !</div>
