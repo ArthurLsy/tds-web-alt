@@ -6,7 +6,7 @@ if (isset($_GET['succes'])) { ?>
     if ($_GET['fail'] === 1) { ?>
         <div id="succes">Erreur dans le Captcha</div>
     <?php }
-    if ($_GET['fail'] === 1) { ?>
+    if ($_GET['fail'] === 2) { ?>
         <div id="succes">Veuillez remplir tout les champs</div>
     <?php }
 }else{ ?>
