@@ -7,5 +7,5 @@
     <div class="text_home">
         <?php echo $dataAbout['accroche'] ?>
     </div>
-    <div class="photo"><img src="../ressources/pics/pp.jpg"></div>
+    <div class="photo"><img src="ressources/pics/pp.jpg"></div>
 </div>
