@@ -2,9 +2,14 @@
 <?php
 if (isset($_GET['succes'])) { ?>
     <div id="succes">Votre message a bien été envoyé !</div>
-<?php }elseif (isset($_GET['fail'])) { ?>
-    <div id="succes">Erreur dans la Captcha</div>
-<?php }else{ ?>
+<?php }elseif (isset($_GET['fail'])) {
+    if ($_GET['fail'] === 1) { ?>
+        <div id="succes">Erreur dans le Captcha</div>
+    <?php }
+    if ($_GET['fail'] === 1) { ?>
+        <div id="succes">Veuillez remplir tout les champs</div>
+    <?php }
+}else{ ?>
     <form action="mail.php" method="post" id="formulaire_contact">
         <label for="name">Nom</label><br>
         <input type="text" id="name" name="name"><br>
