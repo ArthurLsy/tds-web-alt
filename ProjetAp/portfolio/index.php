@@ -15,3 +15,4 @@ if (isset($_GET['menu'])) {
 
 
 include 'vue/utils/footer.php';
+?>

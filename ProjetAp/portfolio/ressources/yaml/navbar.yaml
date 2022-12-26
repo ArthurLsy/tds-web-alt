@@ -13,6 +13,9 @@
 5 :
   - A propos
   - vue/about.php
-6 :
+#6 :
+#  - Projets
+#  - vue/projects.php
+10 :
   - Contact
   - vue/contact.php

@@ -1,0 +1,22 @@
+#box_projets {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_project {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin: 1rem auto;
+    border: black solid 1px;
+    border-radius: 25px;
+    padding: 2rem;
+    width: 60%;
+    transition: 0.5s;
+}
+
+.btn_project:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+    box-shadow: rgba(10, 10, 10, 0.29) 0 0 1rem;
+}
