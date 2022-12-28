@@ -26,16 +26,69 @@
     <a href="index.php?menu=4" class="menu">Expériences</a>
     <a href="index.php?menu=5" class="menu">A propos</a>
     <a href="index.php?menu=6" class="menu">Projets</a>
-    <a href="index.php?menu=7" class="contact">Contact</a>
+    <a href="index.php?menu=10" class="contact">Contact</a>
   </div>
 </header>
-<main>
-  <h1>Projets</h1>
-<div class="box" id="box_projets">
-  <a href="index.php?menu=&project=Perso" class="btn_project">Perso</a>
-  <a href="index.php?menu=&project=TDs BTS SIO" class="btn_project">TDs BTS SIO</a>
-  <a href="index.php?menu=&project=Projet AP" class="btn_project">Projet AP</a>
+<main><div id="box_formations" class="box">
+  <h1>Formations</h1>
+  <div  class="formation">
+    <div class="titre_formation" id="formation_1">
+      <div id="formation_1" class="title item_formation">BTS SIO</div>
+      <div id="formation_1" class="option item_formation">Option : SLAM</div>
+      <div id="formation_1" class="annee item_formation">Année : 2022/</div>
+    </div>
+    <div id="formation_content_1" class="formation_description hide" >
+      <div class="emplacement_formation">
+        <div class="etablissement_formation"><strong>Établissement : </strong>CaenSup </div>
+        <div class="lieu_formation"><strong>Lieu : </strong>Caen</div>
+      </div>
+      <div class="commentaire_formation">Petite description de la formation</div>
+    </div>
+  </div>
+  <div  class="formation">
+    <div class="titre_formation" id="formation_2">
+      <div id="formation_2" class="title item_formation">BUT Informatique</div>
+      <div id="formation_2" class="option item_formation">Option : Sans options</div>
+      <div id="formation_2" class="annee item_formation">Année : 2021/2022</div>
+    </div>
+    <div id="formation_content_2" class="formation_description hide" >
+      <div class="emplacement_formation">
+        <div class="etablissement_formation"><strong>Établissement : </strong>IUT ULCO </div>
+        <div class="lieu_formation"><strong>Lieu : </strong>Calais</div>
+      </div>
+      <div class="commentaire_formation">Petite description de la formation</div>
+    </div>
+  </div>
+  <div  class="formation">
+    <div class="titre_formation" id="formation_3">
+      <div id="formation_3" class="title item_formation">Licence Informatique</div>
+      <div id="formation_3" class="option item_formation">Option : Sans options</div>
+      <div id="formation_3" class="annee item_formation">Année : 2020/2021</div>
+    </div>
+    <div id="formation_content_3" class="formation_description hide" >
+      <div class="emplacement_formation">
+        <div class="etablissement_formation"><strong>Établissement : </strong>UNICAEN </div>
+        <div class="lieu_formation"><strong>Lieu : </strong>Caen</div>
+      </div>
+      <div class="commentaire_formation">Petite description de la formation</div>
+    </div>
+  </div>
+  <div  class="formation">
+    <div class="titre_formation" id="formation_4">
+      <div id="formation_4" class="title item_formation">Baccalauréat scientifique</div>
+      <div id="formation_4" class="option item_formation">Option : ISN</div>
+      <div id="formation_4" class="annee item_formation">Année : 2017/2020</div>
+    </div>
+    <div id="formation_content_4" class="formation_description hide" >
+      <div class="emplacement_formation">
+        <div class="etablissement_formation"><strong>Établissement : </strong>Lycée Malherbe </div>
+        <div class="lieu_formation"><strong>Lieu : </strong>Caen</div>
+      </div>
+      <div class="commentaire_formation">Petite description de la formation</div>
+    </div>
+  </div>
 </div>
-</main>
+  <script src="../ressources/scripts/openDescriptionFormation.js"></script>
+  <div id="cv"><a href="ressources/CV.pdf">Cliquez ici pour accéder à mon CV</a></div></main>
 </body>
 </html>

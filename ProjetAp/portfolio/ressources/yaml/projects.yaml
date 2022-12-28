@@ -1,9 +1,30 @@
 Perso:
-    - nom: Test
+    - id: 1
+      nom: Titre test
+      date: 08/22
       url: test
+      desc: Courte description du projet Courte description du projet Courte description du projet
+    - id: 2
+      nom: Titre test
+      date: 08/22
+      url: test
+      desc: Courte description du projet Courte description du projet Courte description du projet
+    - id: 3
+      nom: Titre test
+      date: 08/22
+      url: test
+      desc: Courte description du projet Courte description du projet Courte description du projet
+    - id: 4
+      nom: Titre test
+      date: 08/22
+      url: test
+      desc: Courte description du projet Courte description du projet Courte description du projet
 TDs BTS SIO:
     - nom: Test2
       url: test2
 Projet AP:
-    - nom: Test2
-    - url: test2
+    - id: 1
+      nom: Portfolio
+      date: 12/22
+      url: index.php
+      desc: Premier projet de l'année de bts SIO option SLAM. Site qui regroupe mes compétences quelques infos ainsi que mes différents projets.

@@ -1,7 +1,6 @@
 .titre_formation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 5% 0;
     cursor: pointer;
     padding: 20px 10px;
@@ -9,6 +8,15 @@
     border-radius: 15px;
     transition: 0.5s;
 }
+
+.option {
+    text-align: center;
+}
+
+.annee {
+    text-align: right;
+}
+
 .titre_formation:hover {
     transition: 0.5s;
     background: #dedede;

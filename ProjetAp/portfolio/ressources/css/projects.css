@@ -3,7 +3,11 @@
     flex-direction: column;
 }
 
-.btn_project {
+#projects_page_title {
+    color: black;
+}
+
+.btn_project_category {
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -15,8 +19,63 @@
     transition: 0.5s;
 }
 
-.btn_project:hover {
+.btn_project_category:hover {
     transition: 0.5s;
     transform: scale(1.02);
     box-shadow: rgba(10, 10, 10, 0.29) 0 0 1rem;
+}
+
+#projects_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project {
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 90%;
+    height: 0;
+    padding-bottom: 45%;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.date_title_project {
+    flex-direction: column;
+    height: 0;
+    padding-bottom: 45%;
+    cursor: pointer;
+}
+
+.project_title {
+    font-weight: bold;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 1.5rem;
+}
+
+.project_date {
+    margin-left: 1rem;
+}
+
+.description_project {
+    margin: 5% 5% 0 5%;
+    height: 0;
+    padding-bottom: 40%;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.btn_project {
+    background: linear-gradient(to bottom right, #ff0059, #0077ff);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.deployProject {
+    display: flex;
 }
