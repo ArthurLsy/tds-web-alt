@@ -19,5 +19,5 @@ foreach ($dataFormation as $key => $itemFormation) { ?>
         </div>
     <?php } ?>
 </div>
-<script src="../ressources/scripts/openDescriptionFormation.js"></script>
+<script src="ressources/scripts/openDescriptionFormation.js"></script>
 <?php include "utils/cv.php"; ?>
