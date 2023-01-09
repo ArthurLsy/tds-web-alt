@@ -1,4 +1,4 @@
-<?php
+ <?php
 $url = 'https://www.google.com/recaptcha/api/siteverify';
 $data = array(
     'secret' => '6LcZRZ4jAAAAAC3w-ODFMR48MekVPoBpXzu19qO6',
@@ -18,7 +18,7 @@ $response = json_decode($result);
 
 if ($response->success) {
     if (empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['email']) || empty($_POST['message'])) {
-        header('Location: ../../index.php?menu=6&failSubmit=2');
+        header('Location: ../../index.php?menu=6&failSubmit=1');
     }else{
         $name = $_POST['name'];
         $email = $_POST['email'];
